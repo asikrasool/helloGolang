@@ -31,8 +31,7 @@ func (d deck) print() {
 	}
 }
 
-// fuc can be delclared in both the ways as below
-// func (d deck) deal(handSize int) (deck, deck) {
+//this fuc dont use reciever
 func deal(d deck, handSize int) (deck, deck) {
 	return d[:handSize], d[handSize:]
 }

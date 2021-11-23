@@ -41,7 +41,7 @@ func main() {
 		},
 	}
 	jim.updateName("Jimmy")
-	jim.print() // This line, still gonna print "Jim" as first line. Need of pointers
+	jim.print() // This line, still gonna print "Jim" as first Name. Need of pointers
 }
 
 func (p person) print() {
