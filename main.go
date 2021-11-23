@@ -16,8 +16,9 @@ func main() {
 	// cards := newDeck()  // For creating new deck of cards
 	// cards.saveToFile("my_cards") //Save decks of card to file named called "my_cards"
 
-	cards := newDeckFromFile("my_cards")
-
+	// cards := newDeckFromFile("my_cards")
+	cards := newDeck()
+	cards.shuffle()
 	cards.print()
 }
 
